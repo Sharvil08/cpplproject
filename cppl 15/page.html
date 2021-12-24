@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="em">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sharvil.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="page.css" />
+    <script src="main.js"></script>
+    <link rel="icon" type="imag/x-icon" href="images/myImage.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-box">
+        <h1 class="TopHeading">BMC vaccination survey</h1>
+      </div>
+    </nav>
+    <form action="connect.php" id="form" method="post">
+      <fieldset>
+        <legend>Auto Email</legend>
+        <label for="one">Name:</label>
+        <input type="text" name="Name" id="one"/><br /><br />
+        <label for="two">Age:</label>
+        <input type="text" name="Age" id="two"/><br /><br />
+        <label for="three">Gender:</label>
+        <input type="text" name="Gender" id="three"/><br /><br />
+        <label for="four">Unique Health Id:</label>
+        <input type="text" name="Id" id="four"/><br /><br />
+        <label class="Vacdetails">Vaccination details*</label><br>
+        <label for="five">1st Dose of vaccination:</label>
+        <input type="text" name="FirstDose" id="five"/><br /><br />
+        <label for="six">2nd Dose of vaccination:</label>
+        <input type="text" name="SecondDose" id="six"/><br /><br />
+        <input type="submit">
+      </fieldset>
+    </form>
+
+  </body>
+</html>
